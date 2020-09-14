@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Personnel Website</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-3.4.1.min.js"></script>		
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <body>
+        <nav>
+            <div class="logo">
+                <h1>Logo</h1>
+            </div>
+            <ul>
+                <li class="items"><a href="#">Home</a></li>
+                <li class="items"><a href="#">Introduce</a></li>
+                <li class="items"><a href="#">Bachelor</a></li>
+                <li class="items"><a href="#">Project</a></li>
+                <li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
+            </ul>
+        </nav>
+        <script>
+            $(document).ready(function(){
+                $('.btn').click(function(){
+                    $('.items').toggleClass("show");
+                    $('ul li').toggleClass("hide");
+                })
+            })
+        </script>
+    </body>
+    <footer>
+        <div class="grid grid--footer">
+            <div class="infor" >
+                <h1 class="footer_heading txt-h5">Contact</h1>
+                <ul class="contact-link list-clean">
+                    <li>
+                        <i class="fa fa-envelope" aria-hidden="true"> <a href="mailto:dinhtuandn97@gmail.com">Dinhtuandn97@gmail.com</a></i>
+                    </li>
+                    <li>
+                       <i class="fa fa-phone-square" aria-hidden="true"> Call me at <a href="tel:+84349792615" class="phone"> +84349792615</a></i>
+                    </li>
+                </ul>
+            </div>
+            <div class="social">
+                <h1 class="footer_heading txt-h5">Social</h1>
+                <ul class="list-social-links list-clean">
+                    <li>
+                        <a href="https://www.facebook.com/aidennguyen0697/" class="fa fa-facebook"></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/Aiden_0697" class="fa fa-twitter"></a>
+                    </li>
+                    <li>
+                        <a href="www.linkedin.com/in/aidennguyen0697" class="fa fa-linkedin"></a>
+                    </li>
+                    <li>
+                        <a href="http://www.youtube.com/c/FavoriteMusic" class="fa fa-youtube"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/_dinh.tuan/" class="fa fa-instagram" aria-hidden="true"></a>
+                    </li>
+                    <li>
+                        <a href="skype:dinhtuannguyen469?chat" class="fa fa-skype" aria-hidden="true"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+</html>
